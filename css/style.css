@@ -1,0 +1,222 @@
+/* font-family: 'Arimo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
+
+/* border: 1px solid red; */
+/* 
+#0A4D68
+#088395
+#05BFDB
+#00FFCA
+
+   border: 1px solid red;
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62, 5%;
+    font-family: 'Arimo', sans-serif
+}
+
+/* Top-------------------------------------------- */
+
+.top {
+    background-image: url(../Imagenes/Top.jpg );
+
+}
+
+.navbar {
+    display: flex;
+    list-style: circle;
+}
+
+.nav-item {
+    width: 250px;
+    text-align: center;
+    font-size: larger;
+}
+
+/* preguntas ---------------------------------------------------*/
+
+.fullfaq {
+    background-image: url(../Imagenes/banner-pregunta.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Footer------------------------------------ */
+h5 {
+    font-size: medium;
+    text-align: center;
+}
+
+.redes a {
+    font-size: larger;
+    text-align: center;
+}
+
+.Servicio p {
+    text-align: center;
+    font-size: xx-small;
+}
+
+.Legales {
+    text-align: center;
+    font-size: xx-small;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.top-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-conteiner {
+    width: 75%;
+    position: relative;
+    left: 30%;
+}
+
+.menu {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul a {
+    /* color: #0A4D68; */
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.Titulo {
+    height: 900px;
+    background-color: #00FFCA;
+    display: flex;
+    justify-content: center;
+    color: #79E0EE;
+    position: relative;
+
+}
+
+.Titulo h1 {
+    text-align: center;
+    position: absolute;
+    top: 1%;
+    font-size: 6rem;
+    color: #0A4D68;
+}
+
+.Titulo h3 {
+    text-align: center;
+    position: absolute;
+    top: 14%;
+    font-size: 2rem;
+    color: #0A4D68;
+}
+
+.img {
+    border-radius: 5%;
+    position: absolute;
+    text-align: center;
+    top: 23%;
+}
+
+.Titulo p {
+    padding: 10px 10px;
+    color: #0a6826;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2%;
+}
+
+.destacados {
+    background-color: #00FFCA;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 30px;
+}
+
+.destacados h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.imgdesta {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.imgdesta img {
+    width: 95%;
+
+}
+
+.frecuente {
+    background-color: #146C94;
+    display: flex;
+}
+
+.frecu {
+    width: 45%;
+}
+
+.frecuente h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: #F6F1F1;
+    padding: 20px;
+}
+
+.frecuente img {
+    width: 90%;
+}
+
+.encontranos {
+    width: 45%;
+}
+
+.map {
+
+    width: 90%;
+    text-align: center;
+}
+
+/* venta---------------------------------------------------------------------------- */
+
+.articulos {
+    padding-left: 15px;
+    text-align: center;
+}
+
+.art img {
+    height: 130px;
+    border-radius: 11px 11px 11px 11px;
+}
