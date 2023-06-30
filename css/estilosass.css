@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-image: url(../Imagenes/Top.jpg);
+}
+
+.navbar {
+  display: flex;
+  list-style: circle;
+}
+
+.nav-item {
+  width: 250px;
+  text-align: center;
+  font-size: larger;
+}
+
+.footer h5 {
+  font-size: smaller;
+  text-align: center;
+}
+.footer .redes {
+  text-align: center;
+}
+.footer .redes a {
+  font-size: larger;
+  text-align: right;
+  justify-content: center;
+}
+.footer .Servicio p {
+  text-align: center;
+  font-size: xx-small;
+}
+.footer .Legales {
+  text-align: center;
+  font-size: xx-small;
+}
+.footer .Legales ul {
+  list-style: none;
+}
+
+.Titulo {
+  background-color: #00FFCA;
+  color: #79E0EE;
+}
+.Titulo h1 {
+  text-align: center;
+  top: 1%;
+  font-size: 6rem;
+  color: #0A4D68;
+}
+.Titulo h3 {
+  text-align: center;
+  top: 14%;
+  font-size: 2rem;
+  color: #0A4D68;
+}
+.Titulo img {
+  width: 95%;
+  border-radius: 5%;
+  text-align: center;
+  top: 23%;
+}
+.Titulo p {
+  color: #0a6826;
+  text-align: center;
+  font-size: 1em;
+  bottom: 2%;
+}
+
+.destacados {
+  background-color: #00FFCA;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 30px;
+}
+.destacados h3 {
+  padding: 10px;
+  text-align: center;
+  font-size: 3rem;
+}
+.destacados .imgdesta {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+.destacados .imgdesta img {
+  width: 95%;
+}
+
+.frecuente {
+  background-color: #146C94;
+  display: flex;
+  justify-content: space-between;
+}
+.frecuente .frecu {
+  width: 45%;
+}
+.frecuente .frecu h3 {
+  font-size: 1, 5rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+.frecuente .frecu img {
+  width: 98%;
+}
+.frecuente .Encontranos {
+  width: 45%;
+  text-align: center;
+}
+.frecuente .Encontranos h3 {
+  font-size: 1, 5rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+.frecuente .Encontranos img {
+  width: 50%;
+  text-align: center;
+}
+
+.fullfaq {
+  background-image: url(../Imagenes/banner-pregunta.jpg);
+}
+
+.contacto {
+  background-color: #146C94;
+  display: flex;
+}
+.contacto .container-fluid .map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.contacto .container-fluid .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.contacto .caja {
+  width: 95%;
+  padding-right: 15%;
+  text-align: right;
+}
+
+.agenda {
+  background-color: #146C94;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+}
+.agenda h1 {
+  font-size: 1rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+.agenda .IF iframe {
+  padding: 25px;
+  width: 95%;
+  text-align: center;
+}
+
+.articulos {
+  padding-left: 15px;
+  text-align: center;
+}
+
+.art img {
+  height: 130px;
+  border-radius: 11px 11px 11px 11px;
+}
+
+/*# sourceMappingURL=estilosass.css.map */

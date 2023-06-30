@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilosass.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>North Optica-Home</title>
 </head>
@@ -20,7 +20,7 @@
         <Div class="top row m-0 p-0">
             <div class="container col-md-3">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../Imagenes/logo_curvas.jpg" alt="Northoptica Logo" width="250" height="150">
+                    <img src="./Imagenes/logo_curvas.jpg" alt="Northoptica Logo" width="250" height="150">
                 </a>
             </div>
             <nav class="navbar navbar-expand-lg style=none col-md-9">
@@ -33,20 +33,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Pages/agenda.html">Turnos</a>
+                                <a class="nav-link" href="./Pages/agenda.html">Turnos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
+                                <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Pages/Tienda.html">Tienda</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a> -->
-                            </li>
+                                <a class="nav-link" href="./Pages/Tienda.html">Tienda</a>
                         </ul>
                     </div>
                 </div>
@@ -75,15 +71,14 @@
         <section class="frecuente">
             <div class="frecu">
                 <h3>Preguntas frecuentes</h3>
-                <a href="./Pages/preguntas.html"><img src="./Imagenes/QA.jpg" alt="Preguntas frecuentes"></a>
+                <div class="img_quest">
+                    <a href="./Pages/preguntas.html"><img src="./Imagenes/QA.jpg" alt="Preguntas frecuentes"></a>
+                </div>
             </div>
-            <div class="encontranos">
-                <h3>Encontranos en</h3>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.0285106691585!2d-58.6404008250158!3d-34.400621246799425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca6b23acd3817%3A0xb2718898305f92d2!2sNorth%20Optica!5e0!3m2!1ses-419!2sar!4v1683813624735!5m2!1ses-419!2sar"
-                        width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="Encontranos">
+                <h3>Encontranos</h3>
+                <div class="img_ubi">
+                    <a href="./Pages/contacto.html"><img src="./Imagenes/Ubi.jpg" alt="Preguntas frecuentes"></a>
                 </div>
             </div>
         </section>
@@ -91,7 +86,7 @@
 
     <!-- Footer--------------------------------------------------------------------------- -->
     <footer>
-        <div class="container-fluid m-0 p-0 row bg-dark text-white">
+        <div class="footer container-fluid m-0 p-0 row bg-dark text-white">
             <div class="p-2 col-12 col-md-3">
                 <h5>Seguinos</h5>
                 <div class="redes container-fluid p-3">

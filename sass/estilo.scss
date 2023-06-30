@@ -1,0 +1,236 @@
+//gral--------------------------------------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//top--------------------------------------------------------------------
+.top {
+    background-image: url(../Imagenes/Top.jpg );
+}
+
+.navbar {
+    display: flex;
+    list-style: circle;
+}
+
+.nav-item {
+    width: 250px;
+    text-align: center;
+    font-size: larger;
+}
+
+//footer-----------------------------------------------------------------
+.footer {
+    h5 {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .redes {
+        text-align: center;
+
+        a {
+            font-size: larger;
+            text-align: right;
+            justify-content: center;
+        }
+    }
+
+    .Servicio {
+        p {
+            text-align: center;
+            font-size: xx-small;
+        }
+    }
+
+    .Legales {
+        text-align: center;
+        font-size: xx-small;
+
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+//Index ----------------------
+
+.Titulo {
+    // height: 900px;
+    background-color: #00FFCA;
+    // display: flex;
+    // justify-content: center;
+    color: #79E0EE;
+    // position: relative;
+
+    h1 {
+        text-align: center;
+        // position: absolute;
+        top: 1%;
+        font-size: 6rem;
+        color: #0A4D68;
+    }
+
+    h3 {
+        text-align: center;
+        // position: absolute;
+        top: 14%;
+        font-size: 2rem;
+        color: #0A4D68;
+    }
+
+    img {
+        width: 95%;
+        border-radius: 5%;
+        // position: absolute;
+        text-align: center;
+        top: 23%;
+    }
+
+    p {
+        // padding: 10px 10px;
+        color: #0a6826;
+        text-align: center;
+        font-size: 1em;
+        // position: absolute;
+        bottom: 2%;
+    }
+}
+
+.destacados {
+    background-color: #00FFCA;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 30px;
+
+    h3 {
+        padding: 10px;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .imgdesta {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+
+        img {
+            width: 95%;
+        }
+    }
+}
+
+.frecuente {
+    background-color: #146C94;
+    display: flex;
+    justify-content: space-between;
+
+    .frecu {
+        width: 45%;
+
+        h3 {
+            font-size: 1, 5rem;
+            text-align: center;
+            color: #F6F1F1;
+        }
+
+        img {
+            width: 98%;
+        }
+    }
+
+    .Encontranos {
+        width: 45%;
+
+        text-align: center;
+
+        h3 {
+            font-size: 1, 5rem;
+            text-align: center;
+            color: #F6F1F1;
+        }
+
+        img {
+            width: 50%;
+            text-align: center;
+        }
+    }
+}
+
+//Preguntas---------------------------------------
+.fullfaq {
+    background-image: url(../Imagenes/banner-pregunta.jpg);
+}
+
+//contacto----------------------------------------
+.contacto {
+    background-color: #146C94;
+    display: flex;
+
+    .container-fluid {
+
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 50%;
+            position: relative;
+            height: 0;
+
+            iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+        }
+    }
+
+    .caja {
+        width: 95%;
+        padding-right: 15%;
+        text-align: right;
+
+    }
+}
+
+//agenda------------------------------------------------
+
+.agenda {
+    background-color: #146C94;
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+
+    width: 100%;
+
+    h1 {
+
+
+        font-size: 1rem;
+        text-align: center;
+        color: #F6F1F1;
+
+    }
+
+    .IF {
+        iframe {
+            padding: 25px;
+            width: 95%;
+            text-align: center;
+
+        }
+    }
+}
+
+//ventas--------------------------------------------------
+.articulos {
+    padding-left: 15px;
+    text-align: center;
+}
+
+.art img {
+    height: 130px;
+    border-radius: 11px 11px 11px 11px;
+}
