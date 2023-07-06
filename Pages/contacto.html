@@ -55,30 +55,80 @@
     </header>
     <main>
         <div class="contacto">
-            <div class="container-fluid">
-                <div>
-                    <h1>Te esperamos en</h1>
-                </div>
-                <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.0285106691585!2d-58.64040082501582!3d-34.40062124679942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca6b23acd3817%3A0xb2718898305f92d2!2sNorth%20Optica!5e0!3m2!1ses-419!2sar!4v1688067786276!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- caja -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <fieldset>
+                                    <legend class="text-center header">Contactanos</legend>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="fname" name="name" type="text" placeholder="Nombre"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="lname" name="name" type="text" placeholder="Apellido"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="email" name="email" type="text" placeholder="Mail"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                class="fa fa-phone-square bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="phone" name="phone" type="text" placeholder="Telefono"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" id="message" name="Consulta"
+                                                placeholder="Escribinos tu consulta responderemos a la brevedad."
+                                                rows="7"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="caja">
-                <h1>Escribinos un mensaje</h1>
-                <form action="" method=""></form>
-                <label for="">Nombre y Apellido</label>
-                <input type="text" name="" id="">
-                <br>
-                <label for="">Mail</label>
-                <input type="email" name="" id="">
-                <br>
-                <label for="">Telefono</label>
-                <input type="number" name="" id="">
-                <br>
-                <textarea name="" id="" cols="24" rows="20"></textarea>
-                <br>
-                <input type="button" value="Enviar">
+            <div class="mapa">
+                <div>
+                    <legend class="text-center header p-4">Encontranos aca</legend>
+                </div>
+                <div class="map p-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.0285106691585!2d-58.64040082501585!3d-34.400621246799425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca6b23acd3817%3A0xb2718898305f92d2!2sNorth%20Optica!5e0!3m2!1ses-419!2sar!4v1688668409285!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </main>

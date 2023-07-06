@@ -43,42 +43,43 @@
 }
 
 .Titulo {
-  background-color: #00FFCA;
+  border: 1px solid #78C1F3;
+  background-color: #78C1F3;
   color: #79E0EE;
 }
 .Titulo h1 {
   text-align: center;
   top: 1%;
   font-size: 6rem;
-  color: #0A4D68;
+  color: #F8FDCF;
 }
 .Titulo h3 {
   text-align: center;
   top: 14%;
   font-size: 2rem;
-  color: #0A4D68;
+  color: #F8FDCF;
 }
 .Titulo img {
+  padding-left: 30px;
+  padding-bottom: 20px;
   width: 95%;
-  border-radius: 5%;
-  text-align: center;
-  top: 23%;
+  border-radius: 15%;
 }
 .Titulo p {
-  color: #0a6826;
+  color: #F8FDCF;
   text-align: center;
   font-size: 1em;
-  bottom: 2%;
 }
 
 .destacados {
-  background-color: #00FFCA;
+  background-color: #78C1F3;
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 30px;
+  gap: 40px;
 }
 .destacados h3 {
-  padding: 10px;
+  color: #F8FDCF;
+  padding: 20px;
   text-align: center;
   font-size: 3rem;
 }
@@ -89,13 +90,16 @@
   gap: 2px;
 }
 .destacados .imgdesta img {
-  width: 95%;
+  width: 90%;
+  border-radius: 15%;
 }
 
 .frecuente {
-  background-color: #146C94;
+  background-color: #78C1F3;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .frecuente .frecu {
   width: 45%;
@@ -106,7 +110,8 @@
   color: #F6F1F1;
 }
 .frecuente .frecu img {
-  width: 98%;
+  padding-top: 15px;
+  width: 80%;
 }
 .frecuente .Encontranos {
   width: 45%;
@@ -118,8 +123,8 @@
   color: #F6F1F1;
 }
 .frecuente .Encontranos img {
+  padding-top: 30px;
   width: 50%;
-  text-align: center;
 }
 
 .fullfaq {
@@ -127,36 +132,40 @@
 }
 
 .contacto {
-  background-color: #146C94;
+  background-color: #78C1F3;
   display: flex;
 }
-.contacto .container-fluid .map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-}
-.contacto .container-fluid .map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
+.contacto .mapa {
   width: 100%;
-  position: absolute;
 }
-.contacto .caja {
-  width: 95%;
-  padding-right: 15%;
-  text-align: right;
+.contacto .container {
+  padding: 10px;
+  width: 100%;
+}
+.contacto .bigicon {
+  font-size: 35px;
+  color: #F6F1F1;
+}
+.contacto .header {
+  color: #F6F1F1;
+  font-size: 27px;
+  padding: 10px;
+  font-size: 35px;
 }
 
 .agenda {
-  background-color: #146C94;
+  background-color: #78C1F3;
   display: grid;
   grid-template-rows: auto 1fr;
   width: 100%;
 }
 .agenda h1 {
-  font-size: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+.agenda p {
+  font-size: 2rem;
   text-align: center;
   color: #F6F1F1;
 }
@@ -166,13 +175,30 @@
   text-align: center;
 }
 
+s .tienda h2 {
+  font-size: 1, 5rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+s .tienda h3 {
+  font-size: 1rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+s .tienda p {
+  font-size: 1rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+
 .articulos {
   padding-left: 15px;
   text-align: center;
 }
 
 .art img {
-  height: 130px;
+  width: 100%;
+  height: 150px;
   border-radius: 11px 11px 11px 11px;
 }
 
