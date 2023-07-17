@@ -18,7 +18,7 @@
   font-size: larger;
 }
 
-.footer h5 {
+.footer h4 {
   font-size: smaller;
   text-align: center;
 }
@@ -53,7 +53,7 @@
   font-size: 6rem;
   color: #F8FDCF;
 }
-.Titulo h3 {
+.Titulo h2 {
   text-align: center;
   top: 14%;
   font-size: 2rem;
@@ -133,10 +133,21 @@
 
 .contacto {
   background-color: #78C1F3;
-  display: flex;
+  display: grid;
 }
-.contacto .mapa {
+.contacto .map-responsive {
+  overflow: hidden;
+  padding-bottom: 250px;
+  /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+  position: relative;
+  height: 0;
+}
+.contacto .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
+  position: absolute;
 }
 .contacto .container {
   padding: 10px;
@@ -175,17 +186,25 @@
   text-align: center;
 }
 
-s .tienda h2 {
+.tienda h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+
+h2 {
   font-size: 1, 5rem;
   text-align: center;
   color: #F6F1F1;
 }
-s .tienda h3 {
+
+h3 {
   font-size: 1rem;
   text-align: center;
   color: #F6F1F1;
 }
-s .tienda p {
+
+p {
   font-size: 1rem;
   text-align: center;
   color: #F6F1F1;
@@ -200,6 +219,31 @@ s .tienda p {
   width: 100%;
   height: 150px;
   border-radius: 11px 11px 11px 11px;
+}
+
+.art img:hover {
+  transform: scale(1.1);
+}
+
+.img404 {
+  background-color: #78C1F3;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+}
+.img404 img {
+  text-align: center;
+}
+.img404 h1 {
+  padding-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #F6F1F1;
+}
+.img404 p {
+  text-align: center;
+  color: #F6F1F1;
 }
 
 /*# sourceMappingURL=estilosass.css.map */

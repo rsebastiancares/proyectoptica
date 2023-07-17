@@ -22,7 +22,7 @@
 
 //footer-----------------------------------------------------------------
 .footer {
-    h5 {
+    h4 {
         font-size: smaller;
         text-align: center;
     }
@@ -68,7 +68,7 @@
         color: #F8FDCF;
     }
 
-    h3 {
+    h2 {
         text-align: center;
         top: 14%;
         font-size: 2rem;
@@ -165,11 +165,28 @@
 //contacto----------------------------------------
 .contacto {
     background-color: #78C1F3;
-    display: flex;
+    display: grid;
 
-    .mapa {
+
+    // .mapa {
+    //     width: 100%;
+
+    // }
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 250px;
+        /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+        position: relative;
+        height: 0;
+    }
+
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
         width: 100%;
-
+        position: absolute;
     }
 
     .container {
@@ -205,6 +222,7 @@
         color: #F6F1F1;
 
     }
+
     p {
         font-size: 2rem;
         text-align: center;
@@ -223,28 +241,33 @@
 
 
 // ventas--------------------------------------------------
-s
-.tienda {
-    h2 {
-        font-size: 1, 5rem;
-        text-align: center;
-        color: #F6F1F1;
-    }
-
-    h3 {
-        font-size: 1rem;
-        text-align: center;
-        color: #F6F1F1;
-
-    }
-
-    p {
-        font-size: 1rem;
-        text-align: center;
-        color: #F6F1F1;
-
-    }
+.tienda h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #F6F1F1;
 }
+
+h2 {
+    font-size: 1, 5rem;
+    text-align: center;
+    color: #F6F1F1;
+}
+
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    color: #F6F1F1;
+
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    color: #F6F1F1;
+
+}
+
 
 .articulos {
     padding-left: 15px;
@@ -252,7 +275,40 @@ s
 }
 
 .art img {
+
+
     width: 100%;
     height: 150px;
     border-radius: 11px 11px 11px 11px;
+
+}
+
+.art img:hover {
+    transform: scale(1.1);
+}
+
+// 404--------------------------------------------------------------
+.img404 {
+    background-color: #78C1F3;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+
+    img {
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 20px;
+        font-size: 2rem;
+        text-align: center;
+        color: #F6F1F1;
+    }
+
+    p {
+        text-align: center;
+        color: #F6F1F1;
+
+    }
 }
