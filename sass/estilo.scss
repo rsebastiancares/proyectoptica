@@ -15,8 +15,8 @@
 }
 
 .nav-item {
-    width: 250px;
-    text-align: center;
+    width: 150px;
+    text-align: end;
     font-size: larger;
 }
 
@@ -45,11 +45,13 @@
     }
 
     .Legales {
-        text-align: center;
+        
+        padding-left: 30%;
         font-size: xx-small;
 
         ul {
             list-style: none;
+
         }
     }
 }
@@ -168,15 +170,9 @@
     display: grid;
 
 
-    // .mapa {
-    //     width: 100%;
-
-    // }
-
     .map-responsive {
         overflow: hidden;
         padding-bottom: 250px;
-        /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
         position: relative;
         height: 0;
     }
